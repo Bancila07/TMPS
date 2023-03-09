@@ -3,19 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <title>Todo App</title>
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
+<div class="box">
 <h1>Todo App</h1>
 <input type="text" id="todo-input" placeholder="Add new todo...">
 <button id="add-todo-button">Add</button>
-
+</div>
+<div class="box">
 <h2>Filter by status</h2>
-<button id="all-button">All</button>
+<span>
+  <button id="all-button">All</button>
 <button id="active-button">Active</button>
 <button id="completed-button">Completed</button>
+</span>
 
 <ul id="todo-list"></ul>
-
+</div>
 <script src="main.js"></script>
 </body>
 </html>
